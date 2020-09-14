@@ -1,0 +1,6 @@
+configured network settings & hostname for dhcp
+added a su 
+used AD to add an A and PTR record for dhcp 
+tested and used ssh from AD01 to DHCP01
+review of basic linux commands 
+viewed bash history and how to remove 
