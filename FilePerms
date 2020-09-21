@@ -1,0 +1,3 @@
+groupadd - create group
+usermod -a -G group user - adds user to group
+chmod, chgrp, chown - changes perms for files and directories 
