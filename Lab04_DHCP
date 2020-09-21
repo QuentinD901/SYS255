@@ -1,0 +1,12 @@
+ssh into dhcp via AD
+use yum to install dhcp 
+configure config file 
+use systemctl to start/enable 
+add dhcp serv to fw 
+set wks01 to dhcp - no longer static 
+wireshark -find DHCP release, discover, offer, request, ack
+
+Deliverable #5
+  TYPE=Ethernet - source code (1) in wireshark  
+  DHCP Inform - client sends DHCP Inform packets when it's lease time reached half of the alloted time.
+  transaction id - allows the client to recognize which dhcp response to which request has been associated
