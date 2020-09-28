@@ -1,0 +1,21 @@
+Create OU
+  Use AD Users and Comp
+  Make OU under your domain
+  Create users if needed and assign users to groups
+  
+Create GPO to enforce policies
+  Use Group Policy Management 
+  Choose the OU you created/want to apply a GPO to
+  Link or create a new GPO 
+  Assign to correct groups if needed
+  Deny for certain users/groups if needed
+  EDIT the GPO
+  Depending on policy choose user or comp config
+      comp config applies to all comps in OU
+      user config appies to all users in OU/Group attached to GPO
+  Enable or Disable config
+  SAVE CHANGES
+  Launch powershell a Domain Admin and run the flollowing commands: 
+    gpupdate /force
+    gpresult /scope computer /r
+  Test Changes
