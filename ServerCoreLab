@@ -1,2 +1,24 @@
 sconfig to edit SC
+add file services as feat
+all fs01 as a server
+add features on fs01
+create a share on fs01
+    keep track of net path
+Give access to groups/users
+test access
+
+make gpo to map drive
+    make new GPO
+    EDIT
+    user config > preferences > win settings > drive map
+    new > mapped drive
+    add loc, name, and drive letter 
+    add groups/users it to apply to 
+    link GPO to OU
+    
+    force gpupdate 
+    signout/sign in 
+Troubleshoot Drive Map:
+    enable SMB file share as a feature on wks
+    make regedits to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System > add EnableLinkedConnections
     
