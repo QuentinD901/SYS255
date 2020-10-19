@@ -1,0 +1,22 @@
+Add Ports on FW:
+  firewall-cmd --stat (check its running)
+  firewall-cmd --permanent --zone=public --add-port=80/tcp (adds port 80/http permanently)
+  firewall-cmd --permanent --zone=public --add-port=443/tcp (adds port 443/https permanently)
+  firewall-cmd --reload (reloads service)
+Check ports:
+   firewall-cmd --list-ports 
+   
+Install HTTPD:
+  (sudo) yum install httpd 
+Enable/Start:
+  systemctl enable httpd.service
+  systemctl start httpd.service
+
+Test connection to webpage 
+remove welcome and customize for self use
+
+Install PHP:
+  (sudo) yum install php
+
+Create PHP script to run on webserver
+test script and avigate to wenserver direcotry 
