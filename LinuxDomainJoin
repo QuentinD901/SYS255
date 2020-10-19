@@ -1,0 +1,8 @@
+install realmd
+  realm join --user=your-domain-admin-username@yourdomain.local yourdomain.local 
+  enter your domain info
+check you joined the domain:
+  realm list
+  logout and login with a Domain User 
+  
+Check computer is found in AD users and comps
