@@ -1,0 +1,17 @@
+Log into Windows AD server 
+Add role/feature 
+  select FS01
+Add DHCP server role
+Add DHCP server tools 
+Install DHCP and use Domain Admin Creds
+
+Add scope 
+  10.0.5.1-254
+  255.255.255.0
+
+Log into WK machine
+  ip relese and renew
+  
+TROUBLESHOOT:
+rn the following command if DHCP does not appear as an editable feature after installing 
+Install-WindowsFeature -Name RSAT-DHCP 
